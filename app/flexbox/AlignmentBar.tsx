@@ -2,7 +2,6 @@
 
 import { AlignOptions } from "@/app/flexbox/page";
 
-
 type Props = {
   alignmentType: string;
   aligments: AlignOptions[];

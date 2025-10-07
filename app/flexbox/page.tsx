@@ -1,7 +1,7 @@
 "use client";
 
-import AlignmentBar from "@/app/flexbox/AlignmentBar";
 import { useState } from "react";
+import AlignmentBar from "@/app/flexbox/AlignmentBar";
 
 export type AlignOptions = {
   label: string;
