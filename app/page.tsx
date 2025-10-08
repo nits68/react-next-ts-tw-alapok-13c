@@ -11,6 +11,8 @@ const links: LinkType[] = [
   { id: 1, href: "/counter", label: "Counter demó" },
   { id: 2, href: "/flexbox", label: "Flexbox demó" },
   { id: 3, href: "/name-and-age", label: "useEffect demó" },
+  { id: 4, href: "/teglalap/ssr", label: "Téglalap SSR demó" },
+  { id: 5, href: "/teglalap/csr", label: "Téglalap CSR demó" },
 ];
 
 export default function MainPage() {
