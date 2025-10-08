@@ -38,7 +38,8 @@ export default function FlexboxPage() {
         setAligment={setVerical}
       />
       <div className={`flex h-72 w-full flex-wrap bg-yellow-100 ${vertical} ${horizontal} gap-4`}>
-        {Array.from({ length: 7 }).map((_, i) => (
+        { /* [...Array(3)] -> [undefined, undefined, undefined] */ }
+        {[...Array(7)].map((_, i) => (
           <div
             className="flex h-24 w-24 items-center justify-center rounded-xl border border-black bg-gradient-to-tr from-cyan-400 to-blue-600 font-bold text-white shadow-xl transition-transform hover:scale-120 hover:shadow-2xl"
             key={i}
