@@ -13,6 +13,7 @@ const links: LinkType[] = [
   { id: 3, href: "/name-and-age", label: "useEffect demó" },
   { id: 4, href: "/teglalap/ssr", label: "Téglalap SSR demó" },
   { id: 5, href: "/teglalap/csr", label: "Téglalap CSR demó" },
+  { id: 6, href: "/teglalap/ssr/kilincs", label: "Paraméterezés demó" },
 ];
 
 export default function MainPage() {

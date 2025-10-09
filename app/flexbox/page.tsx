@@ -4,8 +4,8 @@ import { useState } from "react";
 import AlignmentBar from "@/app/flexbox/AlignmentBar";
 
 export type AlignOptions = {
-  label: string;
-  value: string;
+  label: string; // parancsgomb felirata
+  value: string; // Tailwind osztálynév az igazításhoz
 };
 
 export default function FlexboxPage() {
@@ -40,6 +40,7 @@ export default function FlexboxPage() {
       />
       <div className={`flex h-72 w-full flex-wrap bg-yellow-100 ${vertical} ${horizontal} gap-4`}>
         {/* [...Array(3)] -> [undefined, undefined, undefined] */}
+        {/* ... -> spread operator */}
         {[...Array(7)].map((_, i) => (
           <div
             className="flex h-24 w-24 items-center justify-center rounded-xl border border-black bg-gradient-to-tr from-cyan-400 to-blue-600 text-2xl font-bold text-white shadow-xl transition-transform hover:scale-120 hover:shadow-2xl"
